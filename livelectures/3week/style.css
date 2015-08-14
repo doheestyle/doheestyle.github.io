@@ -1,0 +1,83 @@
+/* 
+cascade
+classes + ID's
+Divs (widths, margin, pedding, border)
+images
+CSS shorthand
+*/
+
+body{ 
+font-style: ill Sans,Gill Sans MT,Centry Gothic;
+font-size: 16px;
+background-color: #fff; }
+
+header { 
+position: relative;
+top: 40%;
+transform:translateY(-50%);
+background-color: rgba(160,234,184,0.5);
+pedding: 3em; 
+margin: auto; 
+}
+h1 {
+	font-size: 48px;
+}
+
+	h2{
+	font-size: 32px;
+	margin: 0 0 16px
+	text-align: center;
+}
+
+h3{
+	font-size: 16px;
+	margin: 0 0 8px;
+p, li{ font-size: 16px;
+font-family: "Georgia", serif;
+}
+ul {pedding:4px 0
+}
+p{
+}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 16px;
+}
+
+img{
+	margin: auto;
+}
+
+foote{
+	pedding:80px 0;
+}
+
+.wrap{
+	width: 700px;
+	margin: auto;
+	pedding:80px 0;
+}
+
+#title{
+	margin: 150px auto 250px;
+	pedding:64px;
+}
+#enjoy {
+	background:url("file:///Users/doheekim80/Desktop/104-163-thickbox.jpg") no-repeat center center fixed;
+	background-size:cover;
+	pedding:160px 0;
+}
+
+#intro{
+	color: #000;
+}
+
+#column-wrap{
+	margin: 48px 0 0;
+}
+
+#services{
+	background-color:#ffff00;
+	
+}
