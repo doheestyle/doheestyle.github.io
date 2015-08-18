@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+
+
+body { 
+text-align: center;
+background: url("photo.jpg") no-repeat center center fixed;
+background-size" cover;
+color: #fff;
+font-family: sans-serif;
+margin-right: auto;
+}
+#intro {
+padding: 200px;
+}
+h1 {font-size: 50px;}
+header {font-size: 12px; 
+font-family: Cinzel, sans-serif;}
+.shop {
+	background-color: white;
+	width: 200px;
+	margin: auto;
+	padding: 10px;
+	font-family: "Cinzel", sans-serif;
+}
+footer { font-size: 12px;
+	font-family: "Cinzel", sans-serif;
+}
+
+nav {text-decoration: none; 
+	text-transform: uppercase;
+	letter-spacing: auto;
+	margin: auto;
+	}

@@ -6,12 +6,15 @@ images
 CSS shorthand
 */
 
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+
 body{ 
-font-style: ill Sans,Gill Sans MT,Centry Gothic;
+font-style: Cabin,Centry Gothic;
 font-size: 16px;
 background-color: #fff; }
 
 header { 
+	font-style: Cabin, sarif;
 position: relative;
 top: 40%;
 transform:translateY(-50%);
