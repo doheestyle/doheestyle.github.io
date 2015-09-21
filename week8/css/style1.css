@@ -32,7 +32,7 @@ footer {font-size: 8px;
 		margin: 0 1.6em .75 0;
 	}
 	 img {
-   width: 320px;
+   width: 3em;
  }
   #culumn {
     font-size: 1.4em;
@@ -40,6 +40,20 @@ footer {font-size: 8px;
   }
 }
 
+@media only screen and (max-width: 480px) {
+	nav { float: none;
+	}
+	nav a {
+		margin: 0 1.6em .75 0;
+	}
+	 img {
+   width: 3em;
+ }
+  #culumn {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+}
 nav a{
 	text-decoration: none; 
 	text-transform: uppercase;
