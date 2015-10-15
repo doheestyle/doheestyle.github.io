@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+head {
+	font-size: 40px;
+	font-family:'Montserrat', sans-serif;
+}
+
+body { 
+	text-transform: capitalize;
+	text-align: center;
+	background-size; cover;
+	color: #fff;
+	font-family: sans-serif;
+	margin-right: auto;
+}
+
+h1 {
+	font-size: 40px;
+font-family:'Montserrat', sans-serif;
+color: black;
+}
+header {font-size: 12px; 
+font-family: 'Cinzel', sans-serif;}
+.shop {
+	background: url(../assets/kd.jpg) no-repeat top center scroll;
+	background-color: white;
+	width: 60%;
+	height: 580px;
+	margin: auto;
+	font-family: 'Cinzel', sans-serif;
+	font-size: 1em;
+    line-height: 2em;
+color: black;
+}
+button { margin: 280px auto;
+.button-link {
+	margin: 280px auto;
+}
+}
+footer { font-size: 12px;
+	font-family: "Cinzel", sans-serif;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+#intro {
+background-size: cover;
+width: 100%;
+height: 300px;
+padding: 160pxs;
+}
+nav {text-decoration: none; 
+	text-transform: uppercase;
+	letter-spacing: auto;
+	margin: auto;
+	}
+
+a { 
+color:black;
+text-decoration: none;
+display: inline-block;
+padding: 10px;}
+
+a:hover {
+	background-color: #aaaaaa
+}
+
+@media only screen and (max-width: 800px) {
+	nav { float: none;
+	}
+	nav a {
+		margin: 0 1.6em .75 0;
+    
+
+	}
+	.shop { width: 100%;
+		height: 400px;
+		background-size: cover;
+	}
+	button { margin: 180px auto;
+}
+  #intro {
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+	
+	
+	a {
+		margin: 0 1.6em .75 0;
+		list-style: none;
+display: block;
+float: none;
+width: 100%;
+	}
+	 img {
+   width: 3em;
+
+ }
